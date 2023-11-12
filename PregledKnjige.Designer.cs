@@ -1,6 +1,6 @@
 ﻿namespace AplikacijaZaBiblioteku
 {
-    partial class PregledKorsinik
+    partial class PregledKnjige
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.bntNazad = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.bntSearch = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.bntNazad = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // bntNazad
+            // 
+            this.bntNazad.Location = new System.Drawing.Point(600, 415);
+            this.bntNazad.Name = "bntNazad";
+            this.bntNazad.Size = new System.Drawing.Size(188, 23);
+            this.bntNazad.TabIndex = 15;
+            this.bntNazad.Text = "Nazad";
+            this.bntNazad.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -44,9 +53,9 @@
             this.groupBox1.Location = new System.Drawing.Point(13, 13);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(775, 373);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Korsinika";
+            this.groupBox1.Text = "Knjiga";
             // 
             // listBox1
             // 
@@ -72,24 +81,15 @@
             this.textBox2.Size = new System.Drawing.Size(581, 20);
             this.textBox2.TabIndex = 1;
             // 
-            // bntNazad
-            // 
-            this.bntNazad.Location = new System.Drawing.Point(600, 415);
-            this.bntNazad.Name = "bntNazad";
-            this.bntNazad.Size = new System.Drawing.Size(188, 23);
-            this.bntNazad.TabIndex = 13;
-            this.bntNazad.Text = "Nazad";
-            this.bntNazad.UseVisualStyleBackColor = true;
-            // 
-            // PregledKorsinik
+            // PregledKnjige
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.bntNazad);
             this.Controls.Add(this.groupBox1);
-            this.Name = "PregledKorsinik";
-            this.Text = "Pregled korsinicima";
+            this.Name = "PregledKnjige";
+            this.Text = "Pregled knjige";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -98,10 +98,10 @@
 
         #endregion
 
+        private System.Windows.Forms.Button bntNazad;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button bntSearch;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button bntNazad;
-        private System.Windows.Forms.ListBox listBox1;
     }
 }
